@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #35424a;
+    border-bottom: 4px solid #e8491d;
+}
+
+.highlight {
+    color: #e8491d;
+}
+
+nav {
+    margin: 26px 0;
+    float: right;
+}
+
+#logobrand {
+    display: inline-flex;
+    padding: 0px;
+    color: #ffffff;
+    margin: 26px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: #e8491d;
+}
+
+#showcase {
+    background-color: gray;
+    text-align: center;
+    min-height: 350px;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+#newsletter {
+    background-color: #35424a;
+    padding: 20px 0;
+}
+
+#newsletter h1 {
+    display: inline;
+    float: left;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 10px;
+}
+
+#newsletter form {
+    float: right;
+    padding-top: 10px;
+}
+
+#newsletter form input {
+    padding: 5px 20px;
+}
+
+#services form button,
+#newsletter form button {
+    background-color: #e8491d;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 7px;
+    margin: 0px;
+    border: 0;
+}
+
+.boxes {
+    padding: 25px;
+}
+
+.boxes .box {
+    text-align: center;
+    color: darkslategray;
+    float: left;
+    width: 33.33%;
+}
+
+.boxes .box img {
+    width: 50px;
+}
+
+footer {
+    background-color: #e8491d;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*About us*/
+
+#services,
+#aboutus {
+    padding-top: 20px;
+}
+
+#services .main-content,
+#aboutus .main-content {
+    float: left;
+    width: 66%;
+}
+
+#aboutus .main-content .dark {
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+}
+
+#services aside,
+#aboutus aside {
+    width: 30%;
+    float: right;
+    background-color: #35424a;
+    padding: 10px;
+    color: #fff;
+}
+
+#aboutus aside h3 {
+    font-weight: 700;
+}
+
+#services form button {
+    display: block;
+}
+
+#services h5 {
+    font-weight: 200;
+}
+
+#services .main-content .title {
+    padding-bottom: 10px;
+}
