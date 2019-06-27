@@ -30,7 +30,17 @@
 					</h3>
 					<a class="btn btn-banner" href="" title="">Get started</a>
 				</div>
-				<div class="banner-img"></div>
+				<div class="banner-img">
+					<img src="img/surface.png" alt="">
+				</div>
+
+				<div class="banner-img">
+					<img src="img/surface.png" alt="">
+				</div>
+
+				<div class="banner-img">
+					<img src="img/surface.png" alt="">
+				</div>
 
 			</div>
 		</section>

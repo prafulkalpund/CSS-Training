@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     background: rgba(12, 29, 44, 1);
     padding: 14px 14px 14px 20px;
-    align-items: center;
+    
 }
 
 header a {
@@ -71,21 +71,24 @@ nav {
 .banner {
 	background-color: rgb(11, 105, 237);
 	min-height: 700px;
-    display: flex;
-    align-items: center;
-    padding: 0 64px;
+/*    display: flex;
+    align-items: center;*/
+    padding: 0 42px;
 }
 
 .banner-text {
     color: #fff;
-    width: 52%;
-    display: inline-block;
+    width: 45%;
+    position: absolute;
+    top: 230px;
+    padding-left: 22px;
+    
 }
 
 .banner-text h1 {
 	font-size: 48px;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .banner-text h1 span{
@@ -98,10 +101,19 @@ nav {
     font-weight: 400;
     color: rgba(255,255,255,0.8);
     margin-bottom: 35px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .banner-img {
-    width: 47%;
-    display: inline-block;
+    position: absolute;
+    top: 94px;
+    right: 0;
 }
+
+.banner-wrapper {
+    position: relative;
+/*    display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+}
+
